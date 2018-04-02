@@ -18,7 +18,7 @@ PROJECT	?=terraform-documenter
 
 clean:: ## Removes binary and generated files
 	@echo ">> cleaning"
-	@rm -f cmd/graylog/graylog-* 
+	@rm -f terraform-documenter*
 
 fix:: ## Runs the Golang fix tool
 	@echo ">> fixing"
